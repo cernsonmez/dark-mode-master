@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/controlBackground"
     tools:context=".MainActivity">
 
     <Switch
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:checked="false"
         android:text="@string/dark_mode_switch_text"
-        android:textColor="@color/black"
+        android:textColor="?attr/colorOnPrimary"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
